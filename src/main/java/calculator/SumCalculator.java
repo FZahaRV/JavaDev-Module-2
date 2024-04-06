@@ -1,3 +1,5 @@
+package calculator;
+
 public class SumCalculator {
     public int sum(int num) {
         if (num <= 0) {

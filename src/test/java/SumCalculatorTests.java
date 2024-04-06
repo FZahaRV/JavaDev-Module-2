@@ -1,3 +1,4 @@
+import calculator.SumCalculator;
 import org.junit.jupiter.api.*;
 
 public class SumCalculatorTests {
