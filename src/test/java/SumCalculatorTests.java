@@ -19,9 +19,7 @@ public class SumCalculatorTests {
     }
     @Test
     public void testThatSumWorkCorrectWithZero() {
-        Assertions.assertThrows(IllegalArgumentException.class, () -> {
-            calc.sum(0);
-        });
+        Assertions.assertThrows(IllegalArgumentException.class, () -> calc.sum(0));
     }
 
 }
